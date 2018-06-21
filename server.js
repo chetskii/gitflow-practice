@@ -1,8 +1,18 @@
-const 
-port = 3000, 
+
+//enter code
+// SUP ANDREW
+const
+express = require('express'),
+app = express(),
+logger = require('morgan')
+PORT = 3000
 
 
-app.listen(port, (err) => {
-    console.log(err || `Running on ${port}`)
-})
+
+
+app.listen(PORT, (err) => {
+console.log(err || `Server runninig on ${PORT}`)
+
+
+
 
