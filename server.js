@@ -1,4 +1,8 @@
-//enter code
+const 
+port = 3000, 
 
-SUP ANDREW
+
+app.listen(port, (err) => {
+    console.log(err || `Running on ${port}`)
+})
 
