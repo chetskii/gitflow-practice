@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/baolmovement/gitflow-practice/issues"
   },
-  "homepage": "https://github.com/baolmovement/gitflow-practice#readme"
+  "homepage": "https://github.com/baolmovement/gitflow-practice#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0"
+  }
 }
